@@ -1,44 +1,38 @@
-# 🛒 Sales Dashboard – Power BI
+# 📊 Sales Dashboard – Power BI
 
-An interactive dashboard built with **Power BI** to visualize and analyze e-commerce sales data from two CSV files: one containing order transactions and another with product details.
+An interactive dashboard built using **Power BI** to analyze e-commerce sales data from two CSV files: `order.csv` and `details.csv`.
 
-## 📊 Features
+## 📁 Files Used
 
-- Integrated two datasets using Power Query and product ID relationships.
-- Cleaned and transformed data for analysis-ready structure.
-- Created KPIs for:
+- `order.csv` – Contains individual product order transactions  
+- `details.csv` – Includes product-level details (e.g., name, category, price)
+
+## 🔧 Key Features
+
+- Cleaned and merged CSV files using Power Query
+- Established data relationships via product IDs
+- Designed visuals for:
   - Total Sales
+  - Category-wise Performance
   - Order Volume
-  - Product-wise Revenue
-  - Category Performance
-- Designed visuals including:
-  - Bar and Pie Charts
-  - Top-N Product Rankings
-  - Monthly Sales Trends
-- Added filters, slicers, and drill-down features for dynamic analysis.
-- Used DAX for calculated columns and performance metrics.
+  - Top-Selling Products
+- Added interactive elements: filters, slicers, drill-downs
+- Used DAX to compute key metrics and calculated fields
 
-## 🛠️ Tools Used
+## 🎯 Outcome
+
+Provided business insights through visual analytics—highlighting sales trends, top products, and category performance in a user-friendly dashboard.
+
+## 🛠 Tools Used
 
 - Power BI
 - Power Query
 - DAX
-- CSV files
-
-## 📁 Files
-
-- `orders.csv` – Order transaction data  
-- `products.csv` – Product catalog and details  
-- `sales_dashboard.pbix` – Power BI dashboard file  
-- `screenshots/` – Dashboard preview images
-
-## 🚀 Outcome
-
-Helped simulate real-world business analysis by uncovering top-selling products, seasonal trends, and category insights for sales performance tracking.
+- CSV (order.csv, details.csv)
 
 ## 📸 Preview
 
-![Dashboard Screenshot](screenshots/dashboard.png)
+> *(Add screenshots in a folder called `/screenshots` and link them here)*
 
 ---
 
